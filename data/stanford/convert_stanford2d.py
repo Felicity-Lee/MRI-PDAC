@@ -176,7 +176,7 @@ def isrmrmd_user_param_to_dict(header):
     user_base64 = list(header.userParameters.userParameterBase64)
 
     for entry in user_long + user_double + user_string + user_base64:
-        user_dict[entry.name] = entry.value_
+        user_dict[entry.name] = entry.value
 
     return user_dict
 
