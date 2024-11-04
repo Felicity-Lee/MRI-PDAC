@@ -90,7 +90,7 @@ python pdac_examples/eval_pdac_fastmri.py \
 --challenge multicoil \
 --accelerations 8 \
 --center_fractions 0.04 \
---checkpoint_file ./pretrained/pdac_fastmri_multicoil_8x
+--checkpoint_file ./pretrained/pdac_fastmri_multicoil_8x \
 --data_path DATA_DIR
 ```
 ```
@@ -99,7 +99,7 @@ python pdac_examples/eval_pdac_fastmri.py \
 --challenge singlecoil \
 --accelerations 8 \
 --center_fractions 0.04 \
---checkpoint_file ./pretrained/pdac_fastmri_singlecoil_8x
+--checkpoint_file ./pretrained/pdac_fastmri_singlecoil_8x \
 --data_path DATA_DIR
 ```
 
@@ -111,7 +111,7 @@ python pdac_examples/eval_pdac_stanford.py \
 --challenge multicoil \
 --accelerations 8 \
 --center_fractions 0.04 \
---checkpoint_file ./pretrained/pdac_stanford_multicoil_8x
+--checkpoint_file ./pretrained/pdac_stanford_multicoil_8x \
 --data_path DATA_DIR
 ```
 - In this case `DATA_DIR` should point directly to the folder containing the *converted* `.h5` files.
